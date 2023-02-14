@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link rel="stylesheet" href="css/myStyles.css">
+	
+	<script src="js/myJScript.js"></script>
+	<title>Classwork_3</title>
+</head>
+<body>
+<center>
+	<select id="select_option" class="select-option" onchange="showDetails()">
+		<option value="loginbtn">Login - Form</option>
+		<option value="signupbtn">Signup Form</option>
+	</select>
+	<div class="signin" id="login_div" name="login_div" >
+		<table>
+			<h1>Sign in Form</h1>
+			<table border="2" bgcolor="white" align="center" width="60%">
+			<tr>
+				<td><h2>Enter your user identification number:</h2></td>
+				<td><input type="text" name="userid" id="userid" /></td>
+			</tr>
+			<tr>
+				<td><h2>Enter your user password number:</h2></td>
+				<td><input type="text" name="pwd" id="pwd" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><button name="login" id="login" value="Login" >Login</button></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class="signup" id="signup_div" name="signup_div" >
+		<h1>Sign up Form</h1>
+		<table border="2" bgcolor="white" align="center" width="60%">
+			<tr>
+				<td><h2>First name:</h2></td>
+				<td><input type="text" name="userid" id="userid" style="width:700px"/></td>
+			</tr>
+			<tr>
+				<td><h2>Last name:</h2></td>
+				<td><input type="text" name="pwd" id="pwd" style="width:700px"/></td>
+			</tr>
+			<tr>
+				<td><h2>Date of Birth:</h2></td>
+				<td><input type="date" name="pwd" id="pwd" /></td>
+			</tr>
+			<tr>
+				<td><h2>Gender:</h2></td>
+				<td>
+					<h4>Male:<input type="radio" name="name" id="male" /></h4>
+					<h4>Female:<input type="radio" name="name" id="female" /></h4>
+					<h4>Not Disclosed:<input type="radio" name="name" id="not_disclosed" /></h4>
+				</td>
+			</tr>
+			<tr>
+				<td><h2>Email id:</h2></td>
+				<td><input type="text" name="pwd" id="pwd" style="width:700px"/></td>
+			</tr>
+			<tr>
+				<td><h2>Password:</h2></td>
+				<td><input type="text" name="pwd" id="pwd" style="width:700px"/></td>
+			</tr>
+			<tr>
+				<td><h2>Confirm Password:</h2></td>
+				<td><input type="text" name="pwd" id="pwd" style="width:700px"/></td>
+			</tr>
+			<tr>
+				<td><h2>Skill set:</h2></td>
+				<td>
+					<select class="skills" id="skills" onchange="showtext()">
+						<option id="1">Computer Science</option>
+						<option id="2">Electrical Engineering</option>
+						<option id="3">Mechanical Engineering</option>
+						<option id="4">Construction Management</option>
+						<option id="5">Robotics</option>
+						<option id="6">Math</option>
+						<option id="7">Biology</option>
+						<option id="8">Chemistry</option>
+						<option value="9">Other</option>
+					</select>
+					<input id="otherbox" class="mytextbox" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button name="login" id="login" value="Login" >Sign up</button>
+					<button name="login" id="login" value="Login" align="right">Reset</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+</center>
+</body>
+</html>

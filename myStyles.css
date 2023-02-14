@@ -1,0 +1,30 @@
+
+body{
+	background-color:#cff5fc;
+}
+.select-option{
+	font-family: Helvetica;
+	font-size: 15px;
+	text-decoration:underline;
+	font-style: italic;
+	font-weight: bold;
+}
+.mytextbox
+{
+	display:none;
+}
+.signin
+{
+	display:none;
+}
+.signup
+{
+	display:none;
+}
+.select{
+	display: inline-block;
+	display:table-row;
+}
+.option{
+	display:table-cell;
+}
